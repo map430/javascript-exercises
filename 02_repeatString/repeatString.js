@@ -19,10 +19,10 @@ repeatString('hey', 0);
 
 repeatString('hey', -1);
 
+const number = Math.floor(Math.random() * 1000)
+repeatString('hey', number);
 
-
-
-
+repeatString('hey', '');
 
 
 // Do not edit below this line

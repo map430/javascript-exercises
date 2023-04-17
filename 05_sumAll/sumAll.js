@@ -1,6 +1,8 @@
 const sumAll = function(val1, val2) {
     let finalSum = 0;
-    if (val1 > val2) {
+    if (val1 < 0 || val2 <0) {
+        return "ERROR";
+    }else if (val1 > val2) {
         for (i=val2; i<=val1; i++) {
           finalSum += i;
         }
